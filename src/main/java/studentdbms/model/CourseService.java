@@ -1,4 +1,4 @@
-package studentdbms.service;
+package studentdbms.model;
 
 import java.util.List;
 

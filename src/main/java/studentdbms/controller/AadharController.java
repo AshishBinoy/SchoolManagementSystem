@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import studentdbms.entity.Aadhar;
 import studentdbms.entity.Student;
-import studentdbms.service.AadharService;
-import studentdbms.service.StudentService;
+import studentdbms.model.AadharService;
+import studentdbms.model.StudentService;
 
 @Controller
 @RequestMapping("/aadhar")

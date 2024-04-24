@@ -7,8 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import studentdbms.entity.Course;
 import studentdbms.entity.Student;
-import studentdbms.service.CourseService;
-import studentdbms.service.StudentService;
+import studentdbms.model.CourseService;
+import studentdbms.model.StudentService;
 
 @SpringBootApplication
 public class StudentDBMSApplication implements CommandLineRunner

@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import studentdbms.entity.Course;
 import studentdbms.entity.Review;
-import studentdbms.service.CourseService;
-import studentdbms.service.ReviewService;
+import studentdbms.model.CourseService;
+import studentdbms.model.ReviewService;
 
 @Controller
 @RequestMapping("/reviews")
