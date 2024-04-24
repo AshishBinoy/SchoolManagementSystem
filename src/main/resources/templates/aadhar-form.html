@@ -13,7 +13,7 @@
     <!-- Bootstrap JS and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <title>Save Student Aadhar</title>
+    <title>Save Student SRN</title>
 </head>
 
 <body>
@@ -31,7 +31,7 @@
     </div>
 </nav>
 <div class="container">
-    <h3>Aadhar Form</h3>
+    <h3>SRN Form</h3>
     <hr>
 
     <a th:href="@{/students}"
@@ -39,7 +39,7 @@
         Back to Student List
     </a>
 
-    <p class="h4 mb-4">Save Student Aadhar</p>
+    <p class="h4 mb-4">Save Student SRN</p>
 
     <form
             action="#"
@@ -51,7 +51,7 @@
                 type="text"
                 th:field="*{number}"
                 class="form-control mb-4 col-4"
-                placeholder="Aadhar Number" />
+                placeholder="SRN Number" />
 
         <button type="submit" class="btn btn-info col-2">Save</button>
 
